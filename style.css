@@ -1,0 +1,43 @@
+body {
+  background: #0b3d0b;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#dealer-cards, #player-cards {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card {
+  width: 110px;
+  height: 154px;
+  margin: 5px;
+}
+
+button {
+  padding: 12px 25px;
+  margin: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#deal { background: #32cd32; color: white; }
+#hit { background: #1e90ff; color: white; }
+#stand { background: #ff6347; color: white; }
+
+#message {
+  font-size: 28px;
+  margin-top: 20px;
+  font-weight: bold;
+}
